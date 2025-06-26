@@ -16,6 +16,31 @@
 
 Cette cartographie présente l'inventaire exhaustif de toutes les ressources Azure déployées dans le cadre du projet Smart Building.
 
+### Relations entre services principaux
+
+```mermaid
+graph LR
+    subgraph "Flux de données IoT"
+        Devices[Appareils IoT] --> IoTHub[IoT Hub]
+        IoTHub --> EventHub[Event Hub]
+        EventHub --> StreamAnalytics[Stream Analytics]
+        StreamAnalytics --> CosmosDB[Cosmos DB]
+        StreamAnalytics --> Storage[Storage Accounts]
+    end
+    
+    subgraph "Traitement des données"
+        CosmosDB --> FunctionApps[Function Apps]
+        Storage --> FunctionApps
+        FunctionApps --> AppInsights[Application Insights]
+    end
+    
+    subgraph "Machine Learning"
+        Storage --> MLWorkspace[ML Workspace]
+        MLWorkspace --> ContainerRegistry[Container Registry]
+        MLWorkspace --> KeyVault[Key Vault]
+    end
+```
+
 ### Statistiques globales
 
 - **Souscription** : Business-Labino-staging
