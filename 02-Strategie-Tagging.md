@@ -308,3 +308,7 @@ Les Azures Policies ne peuvent être mise en place que si des corrections ont é
 1. **Deny-Without-Mandatory-Tags**: Bloquer création sans tags obligatoires
 2. **Inherit-RG-Tags**: Hériter automatiquement certains tags
 3. **Audit-Tag-Compliance**: Audit mensuel de conformité
+
+---
+
+*Fin du rapport d'analyse de la stratégie de tagging*
