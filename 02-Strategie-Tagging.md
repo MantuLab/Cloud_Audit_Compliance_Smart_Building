@@ -45,6 +45,12 @@ L'analyse de la stratégie de tagging actuelle révèle une approche incohérent
 5. **Automatisation** : Impossible d'utiliser les tags pour l'automatisation et les politiques
 
 ## 2. Catégories de tags
+Il est important de choisir une convention de nommage et de s'y conformer. Les types de conventions classiques possibles:
+- camelCase
+- snake_case
+- PascalCase
+- kebab-case <- convention selectionnée pour la suite.
+- UPPER_CASE
 
 ### Tags Obligatoires (Niveau 1 - Critique)
 
@@ -90,10 +96,10 @@ Tags pour l'indentification des sondes.
 
 | Nom du Tag | Description | Valeurs Possibles | Exemple |
 |------------|-------------|-------------------|---------|
-| **DeviceType** | Type de capteur/device | Temperature, Humidity, Sound, Presence, Consumption | Temperature |
-| **Building** | Bâtiment concerné | [Nom/ID du bâtiment] | Building-A |
-| **Floor** | Étage | [Numéro d'étage] | Floor-3 |
-| **Zone** | Zone du bâtiment | [Nom de la zone] | OpenSpace-North |
+| `device-type` | Type de capteur/device | `temperature`, `humidity`, `sound`, `presence`, `consumption` | `temperature` |
+| `building` | Bâtiment concerné | [Nom/ID du bâtiment] | `building-a` |
+| `floor` | Étage | [Numéro d'étage] | `floor-3` |
+| `zone` | Zone du bâtiment | [Nom de la zone] | `openspace-north` |
 
 ## 3. Schéma par type d'environnement
 
