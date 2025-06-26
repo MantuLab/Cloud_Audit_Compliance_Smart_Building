@@ -1,5 +1,16 @@
 # Stratégie de Tagging - Analyse et Recommandations
 
+**Date d'analyse**: 2025-06-26
+
+**Environnement**: Azure - Subscription Business-Labino-staging  
+
+**Resource Group**: rg-smart-building  
+
+---
+[← Retour à l'index](./readme.md) 
+
+---
+
 ## Résumé Exécutif
 
 L'analyse de la stratégie de tagging actuelle révèle une approche incohérente et incomplète. Seulement quelques ressources sont taguées, avec des conventions variables et des informations manquantes critiques pour la gouvernance, la gestion des coûts et la sécurité.

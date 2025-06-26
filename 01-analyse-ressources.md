@@ -1,8 +1,13 @@
 # Rapport d'Analyse des Ressources Orphelines et Inutilisées
 
-**Date d'analyse**: 2025-06-26
+**Date d'analyse**: 2025-06-25
+
 **Environnement**: Azure - Subscription Business-Labino-staging  
+
 **Resource Group**: rg-smart-building  
+
+---
+[← Retour à l'index](./readme.md) 
 
 ---
 

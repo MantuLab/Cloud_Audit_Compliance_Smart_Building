@@ -1,6 +1,16 @@
 # Cartographie complète des ressources Azure - Smart Building
 
-Date de génération : 2025-06-24
+**Date d'analyse**: 2025-06-24
+
+**Environnement**: Azure - Subscription Business-Labino-staging  
+
+**Resource Group**: rg-smart-building  
+
+---
+[← Retour à l'index](./readme.md) 
+
+---
+
 
 ## Vue d'ensemble
 
